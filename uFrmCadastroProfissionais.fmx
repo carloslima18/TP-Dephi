@@ -1,0 +1,249 @@
+inherited frmCadastroProfissionais: TfrmCadastroProfissionais
+  Caption = 'frmCadastroProfissionais'
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    inherited ToolBar1: TToolBar
+      inherited Label1: TLabel
+        Text = 'Cadastro de Profissionais'
+      end
+    end
+    inherited TabControl1: TTabControl
+      TabIndex = 0
+      Sizes = (
+        678s
+        324s
+        678s
+        324s)
+      inherited tabLista: TTabItem
+        IsSelected = True
+        ExplicitSize.cx = 62.000000000000000000
+        ExplicitSize.cy = 23.000000000000000000
+        inherited ListBox1: TListBox
+          Viewport.Width = 678.000000000000000000
+          Viewport.Height = 324.000000000000000000
+        end
+      end
+      inherited tabCadastro: TTabItem
+        IsSelected = False
+        ExplicitSize.cx = 85.000000000000000000
+        ExplicitSize.cy = 23.000000000000000000
+        inherited ListBox2: TListBox
+          Viewport.Width = 678.000000000000000000
+          Viewport.Height = 324.000000000000000000
+          object ListBoxItem2: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            object Label3: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'RG:'
+            end
+            object EditMongo1: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 0
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoTipoCampo = Numerico
+              MongoCampo = 'CODIGO'
+              AutoInc = True
+              CampoChave = True
+            end
+          end
+          object ListBoxItem3: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Position.Y = 50.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            object Label2: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'Nome:'
+            end
+            object EditMongo2: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 1
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoCampo = 'NOME'
+              AutoInc = True
+              CampoChave = False
+            end
+          end
+          object ListBoxItem4: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Position.Y = 100.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            object Label4: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'Fun'#231#227'o'
+            end
+            object EditMongo3: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 1
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoCampo = 'FUNCAO'
+              AutoInc = True
+              CampoChave = False
+            end
+          end
+          object ListBoxItem5: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Position.Y = 150.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 2
+            object Label5: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'CRO'
+            end
+            object EditMongo4: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 1
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoCampo = 'COMISSAO'
+              AutoInc = True
+              CampoChave = False
+            end
+          end
+          object ListBoxItem6: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Position.Y = 200.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            object Label6: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'telefone'
+            end
+            object MongoEdit1: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 1
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoCampo = 'tell'
+              AutoInc = True
+              CampoChave = False
+            end
+          end
+          object ListBoxItem7: TListBoxItem
+            Padding.Left = 5.000000000000000000
+            Padding.Top = 5.000000000000000000
+            Padding.Right = 5.000000000000000000
+            Padding.Bottom = 5.000000000000000000
+            Position.Y = 250.000000000000000000
+            Size.Width = 674.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Label7: TLabel
+              Align = Left
+              StyledSettings = [Family, Style, FontColor]
+              Margins.Left = 10.000000000000000000
+              Position.X = 15.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 120.000000000000000000
+              Size.Height = 40.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Size = 16.000000000000000000
+              Text = 'cpf'
+            end
+            object MongoEdit2: TMongoEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Align = Client
+              TabOrder = 1
+              Size.Width = 534.000000000000000000
+              Size.Height = 32.000000000000000000
+              Size.PlatformDefault = False
+              MongoCampo = 'cpf'
+              AutoInc = True
+              CampoChave = False
+            end
+          end
+        end
+      end
+    end
+  end
+  inherited ActionList1: TActionList
+    Left = 504
+    Top = 32
+  end
+  inherited dsMongo: TFDMongoDataSet
+    Left = 576
+    Top = 33
+  end
+end

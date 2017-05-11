@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2017/05/10 16:34:43.000.981,C:\Users\Notebook\Desktop\appTest\uFrmCadastroPagamento.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
